@@ -23,7 +23,7 @@ def sobang(request):
         else:
             return render(request,'sobang.html')    
     return render(request,'sobang.html')
-
+    
 @csrf_exempt
 def dongpo(request):
     account = AccountsModel()
